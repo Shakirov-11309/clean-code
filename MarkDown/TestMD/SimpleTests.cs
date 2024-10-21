@@ -36,12 +36,14 @@ namespace TestMD
         [Test]
         public void Render_BoldText_ReturnsCorrectHtml()
         {
-            string markdownText = "**Жирный текст**";
+            string markdownText = "__Жирный текст__";
             string expectedHtml = "<strong>Жирный текст</strong>";
 
             string actualHtml = mdProcessor.Render(markdownText);
 
             Assert.AreEqual(expectedHtml, actualHtml);
         }
+
+
     }
 }

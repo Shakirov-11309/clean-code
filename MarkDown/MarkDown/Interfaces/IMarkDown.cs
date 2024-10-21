@@ -9,6 +9,5 @@ namespace MarkDown.Interfaces
     public interface IMarkDown
     {
         public string Render(string markDownText);
-        public string ProcessingText(string text, ref int index);
     }
 }
