@@ -71,13 +71,15 @@ namespace MarkDown.Classes
 
         private bool IsValidDelimiter(string text, int index, string delimiter)
         {
-            int before = index - 1;
-            int after = index + delimiter.Length;
+            //int before = index - 1;
+            //int after = index + delimiter.Length;
 
-            bool validBefore = before < 0 || !char.IsWhiteSpace(text[before]) && !char.IsDigit(text[before]);
-            bool validAfter = after >= delimiter.Length || !char.IsWhiteSpace(text[after]) && !char.IsDigit(text[after]);
+            //bool validBefore = before < 0 || !char.IsWhiteSpace(text[before]) && !char.IsDigit(text[before]);
+            //bool validAfter = after >= delimiter.Length || !char.IsWhiteSpace(text[after]) && !char.IsDigit(text[after]);
 
-            return validBefore && validAfter;
+            //return validBefore && validAfter;
+
+            return index + delimiter.Length < text.Length;
         }
 
         private string RenderTags(string text)
