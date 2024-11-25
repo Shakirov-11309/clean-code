@@ -13,7 +13,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_EmptyInput()
+        public void RenderEmptyInput()
         {
             string markdownText = "";
             string expectedHtml = "";
@@ -24,7 +24,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_Header1()
+        public void RenderHeader1()
         {
             string markdownText = "# Заголовок 1";
             string expectedHtml = "<h1>Заголовок 1</h1>";
@@ -34,7 +34,7 @@ namespace TestMD
         }
         
         [Test]
-        public void Render_Header2()
+        public void RenderHeader2()
         {
             string markdownText = "## Заголовок 2";
             string expectedHtml = "<h2>Заголовок 2</h2>";
@@ -43,7 +43,7 @@ namespace TestMD
             Assert.AreEqual(expectedHtml, actualHtml);
         }
         [Test]
-        public void Render_Header3()
+        public void RenderHeader3()
         {
             string markdownText = "### Заголовок 3";
             string expectedHtml = "<h3>Заголовок 3</h3>";
@@ -52,7 +52,7 @@ namespace TestMD
             Assert.AreEqual(expectedHtml, actualHtml);
         }
         [Test]
-        public void Render_Header4()
+        public void RenderHeader4()
         {
             string markdownText = "#### Заголовок 4";
             string expectedHtml = "<h4>Заголовок 4</h4>";
@@ -62,7 +62,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_Header5()
+        public void RenderHeader5()
         {
             string markdownText = "##### Заголовок 5";
             string expectedHtml = "<h5>Заголовок 5</h5>";
@@ -71,7 +71,7 @@ namespace TestMD
             Assert.AreEqual(expectedHtml, actualHtml);
         }
         [Test]
-        public void Render_Header6()
+        public void RenderHeader6()
         {
             string markdownText = "###### Заголовок 6";
             string expectedHtml = "<h6>Заголовок 6</h6>";
@@ -81,7 +81,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_BoldText()
+        public void RenderBoldText()
         {
             string markdownText = "__Жирный текст__";
             string expectedHtml = "<strong>Жирный текст</strong>";
@@ -92,7 +92,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_Text() 
+        public void RenderText() 
         {
             string markdownText = "# Заголовок __с _разными_ символами__";
             string expectedHtml = "<h1>Заголовок <strong>с <em>разными</em> символами</strong></h1>";
@@ -103,7 +103,7 @@ namespace TestMD
         }
 
         [Test]
-        public void Render_More_StrongText() 
+        public void RenderMoreStrongText() 
         {
             string markdownText = "__Жирный текст__ и еще один __Жирный текст__";
             string expectedHtml = "<strong>Жирный текст</strong> и еще один <strong>Жирный текст</strong>";
@@ -115,7 +115,7 @@ namespace TestMD
 
 
         [Test]
-        public void Render_More_BoldText()
+        public void RenderMoreBoldText()
         {
             string markdownText = "__Жирный _текст и еще один Жирный_ текст__";
             string expectedHtml = "<strong>Жирный <em>текст и еще один Жирный</em> текст</strong>";
@@ -126,15 +126,14 @@ namespace TestMD
         }
 
         [Test]
-        public void QWE()
+        public void RenderStrongTextInBoldText() 
         {
-            string markdownText = "__Жирный__текст__и еще__";
-            string expectedHtml = "<strong>Жирный__текст__и еще__</strong>";
+            string markdownText = "_а фыв __фыв__ ф_";
+            string expectedHtml = "<em>а фыв __фыв__ ф</em>";
 
             string actualHtml = mdProcessor.Render(markdownText);
 
             Assert.AreEqual(expectedHtml, actualHtml);
-
         }
     }
 }
