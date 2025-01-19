@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightsteelblue;
+    position: relative;
+}
+
+.navbar
+{
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid greenyellow;
+    padding: 10px 0 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin: 0 25px;
+}
+
+.title-site{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: greenyellow;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 50px;
+    border: 2px solid greenyellow;
+}
+
+.inputText{
+    position: relative;
+    height: 75vh;
+    width: 400px;
+}

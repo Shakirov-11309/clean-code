@@ -5,7 +5,11 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDown", "MarkDown\MarkDown.csproj", "{5C8E0CB3-3640-483A-B727-3BA44938238D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMD", "TestMD\TestMD.csproj", "{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDown.UnitTests", "TestMD\MarkDown.UnitTests.csproj", "{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkDown.DataBase", "MarkDown.DataBase\MarkDown.DataBase.csproj", "{F923E9CF-86DE-4384-A1C5-C26569ED6E09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F923E9CF-86DE-4384-A1C5-C26569ED6E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F923E9CF-86DE-4384-A1C5-C26569ED6E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F923E9CF-86DE-4384-A1C5-C26569ED6E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F923E9CF-86DE-4384-A1C5-C26569ED6E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
