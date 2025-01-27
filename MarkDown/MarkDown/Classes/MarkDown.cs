@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MarkDown.Classes
 {
-    public class MD : IMarkDown
+    public class MarkDown : IMarkDown
     {
         public string Render(string markDownText)
         {

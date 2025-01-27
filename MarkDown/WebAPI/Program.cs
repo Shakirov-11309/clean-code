@@ -1,6 +1,10 @@
 
 using MarkDown.DataBase;
+using MarkDown.DataBase.repository;
+using MarkDown.Infastructure;
 using Microsoft.EntityFrameworkCore;
+using WebAPI.Middleware;
+using WebAPI.Services;
 
 namespace WebAPI
 {
@@ -11,31 +15,37 @@ namespace WebAPI
             var builder = WebApplication.CreateBuilder(args);
             var configuration = builder.Configuration;
 
-            // Add services to the container.
 
+            builder.Services.Configure<JwtOption>(configuration.GetSection(nameof(JwtOption)));
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<MyDbContext>(
-                options => 
+                options =>
                 {
                     options.UseNpgsql(configuration.GetConnectionString(nameof(MyDbContext)));
                 });
+            Console.WriteLine(configuration.GetConnectionString(nameof(MyDbContext)));
+            builder.Services.AddScoped<JwtProvider>();
+            builder.Services.AddScoped<JwtOption>();
+            builder.Services.AddScoped<PasswordHasher>();
+            builder.Services.AddScoped<UsersRepository>();
+            builder.Services.AddScoped<UsersService>();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             app.UseSwagger();
             app.UseSwaggerUI();
+            app.UseMiddleware<AuthCheckMiddleware>();
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
-
             app.MapControllers();
+            app.UseStaticFiles();
+            app.MapDefaultControllerRoute();
 
             app.Run();
         }

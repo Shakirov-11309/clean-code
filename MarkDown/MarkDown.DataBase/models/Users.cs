@@ -1,14 +1,22 @@
-﻿
-namespace MarkDown.DataBase.models
+﻿namespace MarkDown.DataBase.models
 {
     public class Users
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public string Email { get; set; }
 
         public string Password { get; set; }
 
-        public bool IsAdmin { get; set; }
+
+        public static Users Create(Guid id, string email, string password) 
+        {
+            return new Users
+            {
+                Id = id,
+                Email = email,
+                Password = password
+            };
+        }
     }
 }

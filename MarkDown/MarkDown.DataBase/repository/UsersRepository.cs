@@ -9,7 +9,7 @@ namespace MarkDown.DataBase.repository
 
         public UsersRepository(MyDbContext dbContext)
         {
-            dbContext = _dbContext;
+            _dbContext = dbContext;
         }
 
         public async Task<List<Users>> GetUsers() 
@@ -18,28 +18,34 @@ namespace MarkDown.DataBase.repository
                 .ToListAsync();
         }
 
-        public async Task<Users> GetById(int userId) 
+        public async Task<Users> GetById(Guid userId) 
         {
              return await _dbContext.Users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == userId);
         }
 
-        public async Task Add(int id, string email, string password, bool is_admin) 
+        public async Task<Users> GetByEmail(string email) 
+        {
+            return await _dbContext.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(c => c.Email == email);
+        }
+
+        public async Task Add(Users user) 
         {
             var userEntity = new Users
             {
-                Id = id,
-                Email = email,
-                Password = password,
-                IsAdmin = is_admin
+                Id = user.Id,
+                Email = user.Email,
+                Password = user.Password,
             };
 
             await _dbContext.AddAsync(userEntity);
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task Delete(int id) 
+        public async Task Delete(Guid id) 
         {
             await _dbContext.Users
                 .Where(c => c.Id == id)

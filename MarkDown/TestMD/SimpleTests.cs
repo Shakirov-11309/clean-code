@@ -4,12 +4,12 @@ namespace TestMD
 {
     public class Tests
     {
-        private MD mdProcessor;
+        private MdRender mdProcessor;
 
         [SetUp]
         public void Setup()
         {
-            mdProcessor = new MD();
+            mdProcessor = new MdRender();
         }
 
         [Test]

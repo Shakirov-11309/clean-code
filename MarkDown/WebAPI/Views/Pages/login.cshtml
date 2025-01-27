@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Авторизация на сайт</title>
-    <link rel="stylesheet" href="styles/stylesAuth.css">
+    <link rel="stylesheet" href="/css/stylesAuth.css">
 </head>
 <body>
 <main>
     <div class="wrapper-auth">
         <div class="container-auth">
-            <h1 style="text-align: center">Авторизация</h1>
-            <form method="post" class="form-style">
+            <h1 style="text-align: center; opacity: .3;">Авторизация</h1>
+            <form method="post" class="form-style" action="/User/login">
                 <input type="email" name="email" id="email" placeholder="Email" class="input-style" value="">
                 <input type="password" name="password" id="password" placeholder="Пароль" class="input-style" value="">
                 <button type="submit" class="btn">Войти</button>
-                <a href="registretion.html" class="choice-auth">Регистрация</a>
             </form>
+                <a href="/reg" class="choice-auth">Зарегистрироваться</a>
         </div>
     </div>
 </main>
