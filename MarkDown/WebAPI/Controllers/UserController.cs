@@ -33,5 +33,11 @@ namespace WebAPI.EndPoints
             Response.Cookies.Append("cookie", token);
             return Ok(token);
         }
+
+        [HttpGet("view/catalog")]
+        public IActionResult GetDocuments([FromHeader] UserContract user) 
+        {
+            return Ok();
+        }
     }
 }

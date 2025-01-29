@@ -1,7 +1,8 @@
-
+using MarkDown.Classes;
 using MarkDown.DataBase;
 using MarkDown.DataBase.repository;
 using MarkDown.Infastructure;
+using MarkDown.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using WebAPI.Middleware;
 using WebAPI.Services;
@@ -33,12 +34,14 @@ namespace WebAPI
             builder.Services.AddScoped<PasswordHasher>();
             builder.Services.AddScoped<UsersRepository>();
             builder.Services.AddScoped<UsersService>();
+            builder.Services.AddScoped<TextService>();
+            builder.Services.AddScoped<MD>();
 
             var app = builder.Build();
 
             app.UseSwagger();
             app.UseSwaggerUI();
-            app.UseMiddleware<AuthCheckMiddleware>();
+            //app.UseMiddleware<AuthCheckMiddleware>();
 
             app.UseHttpsRedirection();
             app.UseAuthorization();

@@ -1,26 +1,33 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MarkDown.Classes;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Contracts;
+using WebAPI.Services;
 
 namespace WebAPI.Controllers
 {
-    public class MarkDownController : Controller
+    [ApiController]
+    [Authorize]
+    [Route("[controller]")]
+    public class MarkDownController : ControllerBase
     {
-        // GET: MarkDownController
-        public ActionResult Index()
+        private readonly TextService _textService;
+
+        public MarkDownController(TextService textService) 
         {
-            return View();
+            _textService = textService;
         }
 
-        // GET: MarkDownController/Details/5
-        public ActionResult Details(int id)
+        [HttpPost("convert")]
+        public async Task<IActionResult> GetMarkDownText([FromBody] TextContract markdownText)
         {
-            return View();
-        }
-
-        // GET: MarkDownController/Create
-        public ActionResult Create()
-        {
-            return View();
+            if (markdownText == null || String.IsNullOrEmpty(markdownText.Text)) 
+            {
+                throw new Exception("Вы отправили пустой текст"); 
+            }
+            var result = await _textService.RenderText(markdownText.Text);
+            return Ok(new { result });
         }
     }
 }

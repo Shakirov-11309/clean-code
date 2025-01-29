@@ -11,5 +11,7 @@ namespace MarkDown.DataBase
         }
 
         public DbSet<Users> Users { get; set; }
+
+        public DbSet<Documents> Documents { get; set; }
     }
 }

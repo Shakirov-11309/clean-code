@@ -3,100 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\middleware\\authcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\middleware\\authcheckmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\routing\\routingapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\routing\\routingapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\controllers\\markdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\markdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\pagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\controllers\\markdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\markdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\services\\textservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\textservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\views\\pages\\reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\pages\\reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\contracts\\contractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\contracts\\contractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\contracts\\textcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\contracts\\textcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown\\classes\\stringparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\stringparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\configurations\\documentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\configurations\\documentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\markdown\\classes\\md.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\md.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\filter\\useraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\filter\\useraccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.infastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|solutionrelative:markdown.infastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\contracts\\documentcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\contracts\\documentcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\views\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\views\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\markdown\\webapi\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\contracts\\usercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\contracts\\usercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown\\classes\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.infastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|solutionrelative:markdown.infastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.infastructure\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|solutionrelative:markdown.infastructure\\jwtoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown\\interfaces\\imarkdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\interfaces\\imarkdown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown\\classes\\tagstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\tagstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\migrations\\20250124124408_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\migrations\\20250124124408_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown\\classes\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{61DD2386-EDF1-4337-8C21-F8B29A4E98C5}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.database\\markdown.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\markdown.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\markdown.infastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83E65D5E-D0A1-46B8-B3DA-795D284B15CE}|MarkDown.Infastructure\\MarkDown.Infastructure.csproj|solutionrelative:markdown.infastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\webapi\\contracts\\contractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webapi\\contracts\\contractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,24 +194,245 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoutingApp.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Routing\\RoutingApp.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Routing\\RoutingApp.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Routing\\RoutingApp.cs",
-              "RelativeToolTip": "WebAPI\\Routing\\RoutingApp.cs",
+              "DocumentIndex": 8,
+              "Title": "reg.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\reg.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Pages\\reg.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\reg.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Pages\\reg.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T17:04:25.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\repository\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\UsersRepository.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\repository\\UsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:13:05.728Z",
+              "WhenOpened": "2025-01-24T11:01:51.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Documents.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Documents.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\models\\Documents.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Documents.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\models\\Documents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:12:17.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\DocumentService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\DocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:25:57.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\UsersService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\UsersService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:01:58.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\TextService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\TextService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\TextService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\TextService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:34:46.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:58:34.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\PagesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PagesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\PagesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\PagesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T18:01:21.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarkDownController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\MarkDownController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\MarkDownController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\MarkDownController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\MarkDownController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T15:31:55.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\DocumentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:16:12.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\repository\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\DocumentRepository.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\repository\\DocumentRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:21:02.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TextContract.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\TextContract.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Contracts\\TextContract.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\TextContract.cs",
+              "RelativeToolTip": "WebAPI\\Contracts\\TextContract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:31:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StringParser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\StringParser.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\StringParser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\StringParser.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\StringParser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:05.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\index.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Pages\\index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\index.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Pages\\index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T12:10:15.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DocumentConfigration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Configurations\\DocumentConfigration.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\Configurations\\DocumentConfigration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Configurations\\DocumentConfigration.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\Configurations\\DocumentConfigration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:01:05.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Users.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\models\\Users.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Users.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:56.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T16:00:43.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Md.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Md.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\Md.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Md.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\Md.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T15:32:45.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -136,85 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
-              "RelativeDocumentMoniker": "WebAPI\\Dockerfile",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
-              "RelativeToolTip": "WebAPI\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-25T19:54:31.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PagesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\PagesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PagesController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\PagesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\PagesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T18:01:21.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T16:58:34.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\UsersService.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Services\\UsersService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Services\\UsersService.cs",
-              "RelativeToolTip": "WebAPI\\Services\\UsersService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAIAwwB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T11:01:58.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:42:10.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthCheckMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Middleware\\AuthCheckMiddleware.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Middleware\\AuthCheckMiddleware.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Middleware\\AuthCheckMiddleware.cs",
-              "RelativeToolTip": "WebAPI\\Middleware\\AuthCheckMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T17:18:22.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -227,33 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MarkDownController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\MarkDownController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\MarkDownController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Controllers\\MarkDownController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\MarkDownController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wDAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T11:19:44.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\index.cshtml",
-              "RelativeDocumentMoniker": "WebAPI\\Views\\Pages\\index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\index.cshtml",
-              "RelativeToolTip": "WebAPI\\Views\\Pages\\index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T12:10:15.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",
@@ -266,79 +471,175 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchSettings.json",
-              "RelativeDocumentMoniker": "launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchSettings.json",
-              "RelativeToolTip": "launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-25T19:59:24.432Z"
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "WebAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
+              "RelativeToolTip": "WebAPI\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-25T19:54:31.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WebAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\WebAPI.csproj",
-              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\WebAPI.csproj",
-              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-24T11:48:11.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ContractUser.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\ContractUser.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Contracts\\ContractUser.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\ContractUser.cs",
-              "RelativeToolTip": "WebAPI\\Contracts\\ContractUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "UserAccess.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Filter\\UserAccess.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Filter\\UserAccess.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Filter\\UserAccess.cs",
+              "RelativeToolTip": "WebAPI\\Filter\\UserAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T17:59:03.658Z"
+              "WhenOpened": "2025-01-29T18:21:19.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T11:42:10.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "MarkDown.Infastructure\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\JwtProvider.cs",
+              "RelativeToolTip": "MarkDown.Infastructure\\JwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:10:51.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\appsettings.Development.json",
               "RelativeToolTip": "WebAPI\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-24T11:22:55.941Z"
+              "WhenOpened": "2025-01-28T15:26:54.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\appsettings.json",
               "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-24T11:10:00.865Z"
+              "WhenOpened": "2025-01-29T15:30:10.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "MarkDown.DataBase\\repository\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\repository\\UsersRepository.cs",
-              "RelativeToolTip": "MarkDown.DataBase\\repository\\UsersRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBoAAAAAAAAA",
+              "DocumentIndex": 27,
+              "Title": "DocumentContract.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\DocumentContract.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Contracts\\DocumentContract.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\DocumentContract.cs",
+              "RelativeToolTip": "WebAPI\\Contracts\\DocumentContract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T11:01:51.269Z"
+              "WhenOpened": "2025-01-28T17:03:40.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "WebAPI\\Views\\Pages\\login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Views\\Pages\\login.cshtml",
+              "RelativeToolTip": "WebAPI\\Views\\Pages\\login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T15:33:01.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebAPI\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebAPI\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-27T15:37:50.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\.env",
+              "RelativeDocumentMoniker": "WebAPI\\.env",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\.env",
+              "RelativeToolTip": "WebAPI\\.env",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-28T16:36:42.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserContract.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\UserContract.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Contracts\\UserContract.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\UserContract.cs",
+              "RelativeToolTip": "WebAPI\\Contracts\\UserContract.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:32:05.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Converter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Converter.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\Converter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Converter.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\Converter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:28:57.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "MarkDown.Infastructure\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\PasswordHasher.cs",
+              "RelativeToolTip": "MarkDown.Infastructure\\PasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:11:01.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "JwtOption.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\JwtOption.cs",
               "RelativeDocumentMoniker": "MarkDown.Infastructure\\JwtOption.cs",
@@ -350,56 +651,127 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "MarkDown.Infastructure\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\JwtProvider.cs",
-              "RelativeToolTip": "MarkDown.Infastructure\\JwtProvider.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBgAAAAlAAAA",
+              "DocumentIndex": 35,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\MyDbContext.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T11:10:51.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T15:31:02.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20250124124408_initial.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
-              "RelativeDocumentMoniker": "MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
-              "RelativeToolTip": "MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T12:45:39.942Z"
+              "DocumentIndex": 36,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-28T15:26:49.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "MyDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\MyDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "MarkDown.DataBase\\Migrations\\MyDbContextModelSnapshot.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\MyDbContextModelSnapshot.cs",
               "RelativeToolTip": "MarkDown.DataBase\\Migrations\\MyDbContextModelSnapshot.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T12:44:22.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "MarkDown.Infastructure\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.Infastructure\\PasswordHasher.cs",
-              "RelativeToolTip": "MarkDown.Infastructure\\PasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T11:11:01.278Z"
+              "DocumentIndex": 38,
+              "Title": "WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T11:48:11.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
+              "Title": "IMarkDown.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Interfaces\\IMarkDown.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Interfaces\\IMarkDown.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Interfaces\\IMarkDown.cs",
+              "RelativeToolTip": "MarkDown\\Interfaces\\IMarkDown.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:27.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TagStack.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\TagStack.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\TagStack.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\TagStack.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\TagStack.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:08.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250124124408_initial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\Migrations\\20250124124408_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:45:39.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Tag.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\Tag.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown\\Classes\\Tag.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:06.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-25T19:59:24.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ContractUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\ContractUser.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Contracts\\ContractUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\WebAPI\\Contracts\\ContractUser.cs",
+              "RelativeToolTip": "WebAPI\\Contracts\\ContractUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T17:59:03.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "MarkDown.DataBase.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\clean-code\\MarkDown\\MarkDown.DataBase\\MarkDown.DataBase.csproj",
               "RelativeDocumentMoniker": "MarkDown.DataBase\\MarkDown.DataBase.csproj",

@@ -8,6 +8,7 @@
 
         public string Password { get; set; }
 
+        public List<Documents> Documents { get; set; }
 
         public static Users Create(Guid id, string email, string password) 
         {

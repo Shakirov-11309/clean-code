@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>MarkDown</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <header>
@@ -16,14 +16,39 @@
   </div>
 </header>
 <main>
-    <form method="post" action="/MarkDown/Text" class="container">
-        <textarea name="markdownText" class="inputText"></textarea>
+    <form id="markdownForm" class="container">
+        <textarea id="markdownText" name="markdownText" class="inputText"></textarea>
+        <textarea id="HtmlText" name="htmlText" class="inputText" style="margin-left: 25px" readonly></textarea>
         <button type="submit" class="btn" style="margin-left: 25px">Отправить</button>
-        <textarea name="HtmlText" class="inputText" style="margin-left: 25px"></textarea>
+        <button type="submit" class="btn" style="margin-left: 25px">Сохранить</button>
     </form>
 </main>
 </body>
 <script>
+    document.getElementById('markdownForm').addEventListener('submit', async function (event) {
+        event.preventDefault(); 
 
+        const markdownText = document.getElementById('markdownText').value;
+
+        if (!markdownText.trim()) {
+            alert("Введите текст для конвертации!");
+            return;
+        }
+
+        try {
+            const response = await fetch('/MarkDown/convert', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text: markdownText }) 
+            });
+
+            if (!response.ok) throw new Error("Ошибка сервера");
+
+            const data = await response.json(); 
+            document.getElementById('HtmlText').value = data.result; 
+        } catch (error) {
+            alert("Ошибка при отправке: " + error.message);
+        }
+    });
 </script>
 </html>

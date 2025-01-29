@@ -2,6 +2,6 @@
 {
     public class TextContract
     {
-        public string Text { get; set; } = string.Empty;
+        public string Text { get; set; }
     }
 }
