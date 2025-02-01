@@ -20,9 +20,14 @@ namespace MarkDown.DataBase.repository
 
         public async Task<Users> GetById(Guid userId) 
         {
-             return await _dbContext.Users
+             var user = _dbContext.Users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(c => c.Id == userId);
+
+            return new Users
+            {
+                Id = userId
+            };
         }
 
         public async Task<Users> GetByEmail(string email) 

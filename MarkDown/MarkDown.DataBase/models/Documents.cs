@@ -18,13 +18,13 @@ namespace MarkDown.DataBase.models
 
         public Users Users { get; set; }
 
-        public static Documents Create(Guid Id, Guid userId, string NameFile, string Text, Users users) 
+        public static Documents Create(Guid Id, Guid userId, string nameFile, string Text, Users users) 
         {
             return new Documents
             {
                 Id = Id,
                 UserId = userId,
-                NameFile = NameFile,
+                NameFile = nameFile,
                 Text = Text,
                 Users = users
             };

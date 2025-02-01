@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata;
 using WebAPI.Contracts;
 using WebAPI.Services;
 
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class DocumentController : ControllerBase
     {
         private readonly DocumentService _documentService;
@@ -20,8 +21,29 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("save")]
-        public async Task<IActionResult> SaveDocumentAsync([FromForm] TextContract htmlText) 
+        public async Task<IActionResult> SaveDocumentAsync([FromBody] DocumentContract document) 
         {
+            var userId = await _usersService.GetUserIdByToken(User);
+            var userEntity = await _usersService.GetEntityUserById(userId);
+            await _documentService.Create(userEntity.Id, document.HtmlText, document.FileName);
+            return Ok();
+        }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllDocumentAsync() 
+        {
+            var userId = await _usersService.GetUserIdByToken(User);
+            var userEntity = await _usersService.GetEntityUserById(userId);
+            var result = await _documentService.GetById(userEntity.Id);
+            return Ok(result);
+        }
+
+        [HttpDelete("delete")]
+        public async Task<IActionResult> DeleteDocumentAsync(string fileName) 
+        {
+            var userId = await _usersService.GetUserIdByToken(User);
+            var userEntity =  await _usersService.GetEntityUserById(userId);
+            await _documentService.Delete(userEntity.Id, fileName);
             return Ok();
         }
     }

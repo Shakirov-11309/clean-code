@@ -8,8 +8,8 @@ using WebAPI.Services;
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Authorize]
     [Route("[controller]")]
+    [Authorize]
     public class MarkDownController : ControllerBase
     {
         private readonly TextService _textService;
@@ -26,6 +26,7 @@ namespace WebAPI.Controllers
             {
                 throw new Exception("Вы отправили пустой текст"); 
             }
+
             var result = await _textService.RenderText(markdownText.Text);
             return Ok(new { result });
         }

@@ -12,14 +12,20 @@ namespace WebAPI.Services
             _documentsRepository = documentsRepository;
         }
 
-        public async Task Create(Documents document) 
+        public async Task Create(Guid userId, string text, string nameFile) 
         {
-            await _documentsRepository.Add(document);
+            await _documentsRepository.Add(userId, nameFile, text);
         }
 
-        public async Task<Documents> GetById(Guid id) 
+        public async Task Delete(Guid userId, string nameFile)
         {
-            return await _documentsRepository.GetById(id);
+            await _documentsRepository.RemoveDocument(userId, nameFile);
+        }
+
+        public async Task<List<string>> GetById(Guid userId) 
+        {
+            var listDocuments = await _documentsRepository.GetById(userId);
+            return listDocuments;
         }
 
         public async Task<List<Documents>> GetByUserId(Guid userid)

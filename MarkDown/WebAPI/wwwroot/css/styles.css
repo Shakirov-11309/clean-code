@@ -48,6 +48,25 @@ body {
     cursor: pointer;
 }
 
+.input-style {
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgba(17, 17, 19, .8);
+    border: 1px solid #222325;
+    height: 45px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.input-style::placeholder {
+    color: #fff;
+    opacity: .3;
+}
+
 .container {
     flex-direction: column;
     position: relative;
@@ -65,4 +84,16 @@ body {
     border: none;
     color: #fff;
     font-family: CirceLight, sans-serif;
+}
+
+.item-List {
+    color: white;
+    height: 20px;
+    background-color: rgba(25, 26, 29, .8);
+    padding: 10px 10px;
+    border-radius: 8px;
+    width: 100%;
+    position: relative;
+    list-style: none;
+    margin-top: 10px
 }

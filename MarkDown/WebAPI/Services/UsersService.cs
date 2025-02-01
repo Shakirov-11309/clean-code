@@ -1,6 +1,7 @@
 ﻿using MarkDown.DataBase.models;
 using MarkDown.DataBase.repository;
 using MarkDown.Infastructure;
+using System.Security.Claims;
 
 namespace WebAPI.Services
 {
@@ -41,6 +42,16 @@ namespace WebAPI.Services
             var token = _jwtProvider.GenerateToken(user);
 
             return token;
+        }
+
+        public async Task<Guid> GetUserIdByToken(ClaimsPrincipal claims) 
+        {
+            return Guid.Parse(claims.Claims.FirstOrDefault(x => x.Type == "userid").Value);
+        }
+
+        public async Task<Users> GetEntityUserById(Guid userId) 
+        {
+            return await _usersRepository.GetById(userId);
         }
     }
 }

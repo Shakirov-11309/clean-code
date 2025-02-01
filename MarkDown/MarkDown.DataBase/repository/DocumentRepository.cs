@@ -18,13 +18,14 @@ namespace MarkDown.DataBase.repository
                 .ToListAsync();
         }
 
-        public async Task<Documents> GetById(Guid id)
+        public async Task<List<string>> GetById(Guid id)
         {
             var documentEntity = await _dbContext.Documents
                .AsNoTracking()
-               .FirstOrDefaultAsync(x => x.Id == id);
-            var document = Documents.Create(documentEntity.Id, documentEntity.UserId, documentEntity.NameFile, documentEntity.Text, documentEntity.Users);
-            return document;
+               .Where(x => x.UserId == id)
+               .Select(x => x.NameFile)
+               .ToListAsync();
+            return documentEntity;
         }
 
         public async Task<List<Documents>> GetByUserId(Guid userId)
@@ -39,24 +40,24 @@ namespace MarkDown.DataBase.repository
             return document;
         }
 
-        public async Task Add(Documents documents)
+        public async Task Add(Guid userId, string name, string text)
         {
             var documentEntity = new Documents
             {
-                Id = documents.Id,
-                UserId = documents.UserId,
-                NameFile = documents.NameFile,
-                Text = documents.Text,
+                Id = Guid.NewGuid(),
+                UserId = userId,
+                NameFile = name,
+                Text = text,
             };
 
             await _dbContext.AddAsync(documentEntity);
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task RemoveDocumentByNameFile(string nameFile)
+        public async Task RemoveDocument(Guid userId, string nameFile)
         {
             await _dbContext.Documents
-                .Where(c => c.NameFile == nameFile)
+                .Where(c => c.UserId == userId && c.NameFile == nameFile)
                 .ExecuteDeleteAsync();
         }
     }

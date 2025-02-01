@@ -2,9 +2,9 @@ using MarkDown.Classes;
 using MarkDown.DataBase;
 using MarkDown.DataBase.repository;
 using MarkDown.Infastructure;
-using MarkDown.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using WebAPI.Middleware;
+using WebAPI.AuthCheck;
+using WebAPI.Filter;
 using WebAPI.Services;
 
 namespace WebAPI
@@ -16,34 +16,36 @@ namespace WebAPI
             var builder = WebApplication.CreateBuilder(args);
             var configuration = builder.Configuration;
 
-
             builder.Services.Configure<JwtOption>(configuration.GetSection(nameof(JwtOption)));
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddControllersWithViews();
-
+         
             builder.Services.AddDbContext<MyDbContext>(
                 options =>
                 {
                     options.UseNpgsql(configuration.GetConnectionString(nameof(MyDbContext)));
                 });
-            Console.WriteLine(configuration.GetConnectionString(nameof(MyDbContext)));
             builder.Services.AddScoped<JwtProvider>();
             builder.Services.AddScoped<JwtOption>();
             builder.Services.AddScoped<PasswordHasher>();
             builder.Services.AddScoped<UsersRepository>();
+            builder.Services.AddScoped<DocumentsRepository>();
             builder.Services.AddScoped<UsersService>();
             builder.Services.AddScoped<TextService>();
+            builder.Services.AddScoped<DocumentService>();
+            builder.Services.AddScoped<AuthCookieFilter>();
             builder.Services.AddScoped<MD>();
+            builder.Services.AddAuthOption(configuration);
 
             var app = builder.Build();
 
             app.UseSwagger();
             app.UseSwaggerUI();
-            //app.UseMiddleware<AuthCheckMiddleware>();
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
