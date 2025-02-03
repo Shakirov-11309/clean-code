@@ -16,9 +16,7 @@ namespace MarkDown.DataBase.Configurations
             builder.HasKey(x => x.Id);
             builder.HasOne(x => x.Users)
                 .WithMany(x => x.Documents)
-                .HasForeignKey(x => x.UserId);
-            
+                .HasForeignKey(x => x.UserId);   
         }
-
     }
 }

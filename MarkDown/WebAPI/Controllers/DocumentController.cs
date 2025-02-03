@@ -25,7 +25,7 @@ namespace WebAPI.Controllers
         {
             var userId = await _usersService.GetUserIdByToken(User);
             var userEntity = await _usersService.GetEntityUserById(userId);
-            await _documentService.Create(userEntity.Id, document.HtmlText, document.FileName);
+            await _documentService.Create(userEntity.Id, document.MdText, document.FileName);
             return Ok();
         }
 

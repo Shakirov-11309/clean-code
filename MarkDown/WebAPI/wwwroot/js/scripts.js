@@ -25,7 +25,7 @@
 });
 
 document.getElementById('saveButton').addEventListener('click', async function () {
-    const htmlText = document.getElementById('HtmlText').value;
+    const mdText = document.getElementById('markdownText').value;
     const fileName = document.getElementById('inputNameFile').value.trim();
 
     if (!fileName) {
@@ -33,16 +33,16 @@ document.getElementById('saveButton').addEventListener('click', async function (
         return;
     }
 
-    if (!htmlText.trim()) {
+    if (!mdText.trim()) {
         alert("Нет данных для сохранения!");
         return;
     }
-    console.log("Отправляем JSON:", { htmlText, fileName });
+    console.log("Отправляем JSON:", { mdText, fileName });
     try {
         const response = await fetch('/Document/save', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ htmlText, fileName })
+            body: JSON.stringify({ mdText, fileName })
         });
 
         if (!response.ok) throw new Error("Ошибка сервера");

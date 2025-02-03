@@ -24,13 +24,7 @@ namespace WebAPI.Services
 
         public async Task<List<string>> GetById(Guid userId) 
         {
-            var listDocuments = await _documentsRepository.GetById(userId);
-            return listDocuments;
-        }
-
-        public async Task<List<Documents>> GetByUserId(Guid userid)
-        {
-            return await _documentsRepository.GetByUserId(userid);
+            return await _documentsRepository.GetById(userId);
         }
     }
 }

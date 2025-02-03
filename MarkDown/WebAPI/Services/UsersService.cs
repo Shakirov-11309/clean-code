@@ -46,7 +46,12 @@ namespace WebAPI.Services
 
         public async Task<Guid> GetUserIdByToken(ClaimsPrincipal claims) 
         {
-            return Guid.Parse(claims.Claims.FirstOrDefault(x => x.Type == "userid").Value);
+            var userId = claims.Claims.FirstOrDefault(x => x.Type == "userid");
+            if (userId == null) 
+            {
+                throw new Exception("Не авторизованный пользователь");
+            }
+            return Guid.Parse(userId.Value);
         }
 
         public async Task<Users> GetEntityUserById(Guid userId) 
