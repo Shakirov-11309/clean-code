@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}|TestMD\\MarkDown.UnitTests.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\testmd\\simpletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E87B816E-A2DB-4417-A38C-2DE9FB7D3EA4}|TestMD\\MarkDown.UnitTests.csproj|solutionrelative:testmd\\simpletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\markdown\\classes\\tagstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\tagstack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\markdown\\classes\\md.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C8E0CB3-3640-483A-B727-3BA44938238D}|MarkDown\\MarkDown.csproj|solutionrelative:markdown\\classes\\md.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\webapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B99BCF7D-EF09-40EA-ABCC-D7A232A652DE}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|c:\\users\\hum\\desktop\\clean-code\\markdown\\markdown.database\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F923E9CF-86DE-4384-A1C5-C26569ED6E09}|MarkDown.DataBase\\MarkDown.DataBase.csproj|solutionrelative:markdown.database\\models\\documents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:12:27.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TagStack.cs",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown\\Classes\\TagStack.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\TagStack.cs",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown\\Classes\\TagStack.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\TagStack.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:12:36.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Md.cs",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown\\Classes\\Md.cs",
+              "RelativeDocumentMoniker": "MarkDown\\Classes\\Md.cs",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown\\Classes\\Md.cs",
+              "RelativeToolTip": "MarkDown\\Classes\\Md.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:12:21.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleTests.cs",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\TestMD\\SimpleTests.cs",
+              "RelativeDocumentMoniker": "TestMD\\SimpleTests.cs",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\TestMD\\SimpleTests.cs",
+              "RelativeToolTip": "TestMD\\SimpleTests.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAswAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:11:46.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "WebAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\Dockerfile",
+              "RelativeToolTip": "WebAPI\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-02T11:11:27.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-02T11:11:19.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\.env",
+              "RelativeDocumentMoniker": "WebAPI\\.env",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\WebAPI\\.env",
+              "RelativeToolTip": "WebAPI\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-02T11:11:03.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Documents.cs",
+              "DocumentMoniker": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Documents.cs",
+              "RelativeDocumentMoniker": "MarkDown.DataBase\\models\\Documents.cs",
+              "ToolTip": "C:\\Users\\hum\\Desktop\\clean-code\\MarkDown\\MarkDown.DataBase\\models\\Documents.cs",
+              "RelativeToolTip": "MarkDown.DataBase\\models\\Documents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T11:10:49.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
